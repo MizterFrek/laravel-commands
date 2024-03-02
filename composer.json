@@ -1,0 +1,19 @@
+{
+    "name": "mizterfrek/laravel-commands",
+    "description": "Package that will add useful commands in artisan",
+    "autoload": {
+        "psr-4": {
+            "Mizterfrek\\LaravelCommands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mizterfrek\\LaravelCommands\\ArtisanCommandServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^7.*"
+    }
+}

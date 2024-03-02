@@ -1,0 +1,19 @@
+<?php
+
+namespace {{ namespace }};
+
+use Mizterfrek\LaravelCommands\Repository\BaseRepository;
+
+
+class {{ class }} extends BaseRepository
+{
+
+    /**
+     * Return the model name
+     * @return string
+     */
+    public function model(): string
+    {
+        //return ;
+    }
+}
